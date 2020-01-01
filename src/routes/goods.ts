@@ -2,11 +2,12 @@
  * @Author: isboyjc
  * @Date: 2020-01-01 18:09:11
  * @LastEditors  : isboyjc
- * @LastEditTime : 2020-01-01 23:48:14
- * @Description: detail 详情类
+ * @LastEditTime : 2020-01-02 00:00:19
+ * @Description: goods商品类
  */
 import * as Koa from "koa";
-import {get,post,middlewares,check} from "./../utils/route-decors";
+import {get, post, check} from "./../utils/route-decors";
+
 
 const delay = (data:any, tick:number) => new Promise(resolve => {
   setTimeout(()=>{
