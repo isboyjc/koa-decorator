@@ -1,2 +1,2 @@
 # koa-decorator
-Koa+TS 装饰器版应用
+Koa+TS 使用装饰器,更优雅的路由编码
