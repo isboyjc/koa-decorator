@@ -1,0 +1,18 @@
+{    
+  "compilerOptions": {        
+    "outDir": "./dist",
+    "target": "es2017",
+    // 组织代码方式
+    "module": "commonjs",
+    "sourceMap": true,
+    // 模块解决策略
+    "moduleResolution": "node",
+    // 开启装饰器定义
+    "experimentalDecorators": true,
+    // 允许es6方式import 
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es2015"],        
+    "typeRoots": ["./node_modules/@types"], 
+  },    
+  "include": ["src/**/*"]
+}
